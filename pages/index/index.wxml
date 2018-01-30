@@ -1,0 +1,59 @@
+<!--index.wxml-->
+<!--命名规则"index-"使用上一层次的第一个和最后一个名称的前两位字母，用连词符衔接，名称不超过三个层次-->
+<view class='index-container'>
+  <view class='in-co-content'>
+    <view class='in-co-header'>
+      <view>
+        <image></image>
+      </view>
+      <text class='in-he-name'>LINK STROM</text>
+      <text class='in-he-intention'>TinyApp Developer</text>
+    </view>
+    <view class='in-co-body'>
+      <scroll-view class='in-bo-scroll' scroll-x='true'>
+        <view class='in-sc-content'>
+          <image></image>
+        </view> 
+          <view class='in-sc-content'>
+            <image></image>
+          </view>
+        <view class='in-sc-content'>
+          <image></image>
+        </view>
+        <view class='in-sc-content in-sc-last'>
+          <image></image>
+        </view>
+      </scroll-view>
+      <view class='in-bo-detil'>
+        <view class='in-de-contact'>
+          <view class='in-de-row'>
+            <image></image>
+            <text>17666474831</text>
+          </view>
+          <view class='in-de-row'>
+            <image></image>
+            <text>lichao_works@163.com</text>
+          </view>
+          <view class='in-de-row'>
+            <image></image>
+            <text>广东中山</text>
+          </view>
+        </view>
+        <view class='in-de-contact'>
+          <view class='in-de-row'>
+            <image></image>
+            <text>2015-2019 电子科技大学中山学院</text>
+          </view>
+          <view class='in-de-row'>
+            <image></image>
+            <text>2017-2018 物联科技有限公司</text>
+          </view>
+          <view class='in-de-row'>
+            <image></image>
+            <text>PHP开发，前端开发，vue.js，node.js</text>
+          </view>
+        </view>
+      </view>  
+    </view>
+  </view>
+</view>

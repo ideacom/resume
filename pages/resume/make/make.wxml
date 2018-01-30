@@ -1,0 +1,169 @@
+<!--pages/resume/make/make.wxml-->
+<!--命名规则"make-"使用上一层次的第一个和最后一个名称的前两位字母，用连词符衔接，名称不超过三个层次-->
+<view class='make-container'>
+  <!--资料完成度标题-->
+  <view class='ma-co-title'>
+    <text>简历完成度0%</text>
+  </view>
+  <!--基本信息-->
+  <view class='ma-co-basicInfo'>
+    <view class='ma-ba-title'>
+      <text>基本信息</text>
+      <image></image>
+    </view>
+    <view class='ma-ba-content'>
+      <view class='ma-co-row1'>
+        <image></image>
+        <view class='ma-row1-content'>
+          <text>lichao</text>
+          <text>{{sex}}</text>
+        </view>
+      </view>
+      <view class='ma-co-row2'>
+        <text>手机号</text>
+        <text>{{phone}}</text>
+      </view>
+    </view>
+  </view>
+  <!--求职意向-->
+  <view class='ma-co-intention'>
+    <view class='ma-in-title'>
+      <text>求职意向</text>
+      <image></image>
+    </view>
+    <view class='ma-in-content'>
+      <view class='ma-co-items'>
+        <text>期望行业：</text>
+        <text>互联网/移动互联网/电子商务</text>
+      </view>
+      <view class='ma-co-items'>
+        <text>职位/职能：</text>
+        <text>后端开发</text>
+      </view>
+      <view class='ma-co-items'>
+        <text>期望地点：</text>
+        <text>广州市</text>
+      </view>
+      <view class='ma-co-items'>
+        <text>工作类型：</text>
+        <text>实习</text>
+      </view>
+      <view class='na-co-items'>
+        <text>期望薪资：</text>
+        <text>4k-5k</text>
+      </view>
+    </view>
+  </view>
+  <!--教育背景-->
+  <view class='ma-co-studyBg'>
+    <view class='ma-in-title'>
+      <text>教育背景</text>
+      <image></image>
+    </view>
+    <view class='ma-st-items'>
+      <view class='ma-it-school'>
+        <text>电子科技大学中山学院·</text>
+        <text>本科</text>
+      </view> 
+      <view class='ma-it-studyTime'>
+        <text>2015-09</text>
+        <text>至</text>
+        <text>2019-06</text>
+      </view>
+    </view>
+  </view>
+  <!--在校经历-->
+  <view class='ma-co-einside'>
+    <view class='ma-ei-title'>
+      <text>在校经历</text>
+      <image></image>
+    </view>
+    <view class='ma-ei-type'>
+      <view class='ma-ty-title'>
+        <text>奖学金</text>
+      </view>
+      <view class='ma-ty-content'>
+        <view class='ma-co-items'>
+          <text>啦啦啦啦奖学金</text>
+          <text>2015-12-1</text>
+        </view>
+        <view class='ma-co-items'>
+          <text>啦啦啦啦奖学金</text>
+          <text>2015-12-1</text>
+        </view>
+      </view>
+    </view>
+    <view class='ma-ei-type'>
+      <view class='ma-ty-title'>
+        <text>竞赛经历</text>
+      </view>
+      <view class='ma-ty-content'>
+        <view class='ma-co-items'>
+          <text>啦啦啦啦竞赛</text>
+          <text>2015-12-1</text>
+        </view>
+        <view class='ma-co-items'>
+          <text>啦啦啦啦竞赛</text>
+          <text>2015-12-1</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!--工作经历-->
+  <view class='ma-co-eoutside'>
+    <view class='ma-eo-title'>
+      <text>工作经历</text>
+      <image></image>
+    </view>
+    <view class='ma-eo-type'>
+      <view class='ma-ty-title'>
+        <text>全职</text>
+      </view>
+      <view class='ma-ty-content'>
+        <view class='ma-co-items'>
+          <image></image>
+          <view class='ma-it-column2'>
+            <text>物联科技有限公司</text>
+            <text>2015-12-1</text>
+            <text>至</text>
+            <text>2017-18-52</text>
+          </view>
+        </view>
+        <view class='ma-co-items'>
+          <image></image>
+          <view class='ma-it-column2'>
+            <text>物联科技有限公司</text>
+            <text>2015-12-1</text>
+            <text>至</text>
+            <text>2017-18-52</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class='ma-eo-type'>
+      <view class='ma-ty-title'>
+        <text>兼职</text>
+      </view>
+      <view class='ma-ty-content'>
+        <view class='ma-co-items'>
+          <image></image>
+          <view class='ma-it-column2'>
+            <text>物联科技有限公司</text>
+            <text>2015-12-1</text>
+            <text>至</text>
+            <text>2017-18-52</text>
+          </view>
+        </view>
+        <view class='ma-co-items'>
+          <image></image>
+          <view class='ma-it-column2'>
+            <text>物联科技有限公司</text>
+            <text>2015-12-1</text>
+            <text>至</text>
+            <text>2017-18-52</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

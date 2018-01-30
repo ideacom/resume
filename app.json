@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/resume/make/make",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/resume/template/template"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}
